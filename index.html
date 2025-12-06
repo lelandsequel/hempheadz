@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hemp Headz - Premium Delta 8 & Cannabis in Houston. 21+ Only.">
+    <title>HEMP HEADZ | Be Someone</title>
+  </head>
+  <body>
+    <!-- PRELOAD IMAGES -->
+    <link rel="preload" as="image" href="/assets/bg-space.png">
+    
+    <!-- AGE GATE -->
+    <div id="age-gate">
+      <div class="age-gate-content glass-panel">
+        <h2 style="color: var(--color-neon-green)">ARE YOU 21+?</h2>
+        <p style="margin: 1rem 0; font-size: 1.1rem; color: #ddd;">
+          You must be at least 21 years of age to view this site and purchase products.
+        </p>
+        <div class="age-gate-buttons">
+          <button id="btn-enter" class="btn">YES, I AM 21+</button>
+          <button id="btn-leave" class="btn btn-reject">NO, EXIT</button>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.8rem; opacity: 0.7;">
+          By entering, you agree to our Terms of Service and Privacy Policy.
+        </p>
+      </div>
+    </div>
+
+    <!-- APP CONTENT -->
+    <div id="app">
+      <header id="main-header">
+        <div class="container">
+          <nav>
+            <a href="#" class="logo">HEMP HEADZ</a>
+            <ul class="nav-links">
+              <li><a href="#about">THE VIBE</a></li>
+              <li><a href="#products">MENU</a></li>
+              <li><a href="#location">VISIT US</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <!-- HERO -->
+        <section id="hero">
+          <div class="container hero-content">
+            <img src="/assets/mascot.png" alt="Hemp Headz Alien Mascot" class="mascot-img floating">
+            <h1>BE SOMEONE</h1>
+            <h2 style="font-size: 1.5rem; color: #fff; margin-bottom: 2rem; font-family: var(--font-main); letter-spacing: 2px;">
+              HOUSTON'S PREMIER HEMP EXPERIENCE
+            </h2>
+            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+              <a href="#location" class="btn">VISIT STORE</a>
+              <a href="tel:3102696696" class="btn" style="border-color: var(--color-neon-purple); color: var(--color-neon-purple)">CALL US</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+          <div class="container">
+            <div class="glass-panel" style="max-width: 900px; margin: 0 auto; text-align: center;">
+              <h2>THE HIGHER STANDARD</h2>
+              <p style="margin: 20px 0; font-size: 1.2rem;">
+                Located in the heart of Houston, Hemp Headz brings you the finest selection of Delta 8, legal cannabis, and lifestyle products. We don't just sell products; we curate a vibe.
+              </p>
+              <div style="margin-top: 30px;">
+                <img src="/assets/store_front.jpg" alt="Hemp Headz Storefront" style="width: 100%; max-width: 600px; border-radius: 8px; border: 2px solid var(--color-neon-purple);">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PRODUCTS MOCKUP -->
+        <section id="products">
+          <div class="container">
+            <h2 style="text-align: center;">TOP SHELF SELECTION</h2>
+            <div class="products-grid">
+              <div class="product-card glass-panel">
+                <h3 style="color: var(--color-neon-green)">PREMIUM FLOWER</h3>
+                <p>Top-tier strains curated for potency and flavor.</p>
+              </div>
+              <div class="product-card glass-panel">
+                <h3 style="color: var(--color-neon-purple)">EDIBLES</h3>
+                <p>Gummies, chocolates, and treats that hit different.</p>
+              </div>
+              <div class="product-card glass-panel">
+                <h3 style="color: var(--color-neon-green)">VAPES*</h3>
+                <p>High purity distillate carts and disposables.</p>
+                <small style="display: block; margin-top: 10px; font-size: 0.7rem; color: #888;">*Available in store until regulatory changes take effect.</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- LOCATION -->
+        <section id="location" style="background: rgba(0,0,0,0.8);">
+          <div class="container" style="text-align: center;">
+            <h2>COME SAY HIGH</h2>
+            <div class="glass-panel" style="display: inline-block; text-align: left; margin-top: 2rem;">
+              <h3 style="color: #fff; margin-bottom: 1rem;">HEMP HEADZ</h3>
+              <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">📍 6003 N SHEPHERD DR, SUITE 1</p>
+              <p style="font-size: 1.2rem; margin-bottom: 0.5rem;">🏙️ HOUSTON, TX 77091</p>
+              <p style="font-size: 1.2rem; margin-bottom: 1.5rem;">📞 310.269.6696</p>
+              <a href="https://maps.google.com/?q=6003+N+Shepherd+Dr,+Houston,+TX+77091" target="_blank" class="btn">GET DIRECTIONS</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="legal-warning">
+            <strong>FDA DISCLOSURE:</strong> These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+          </div>
+          <div class="legal-warning">
+            <strong>WARNING:</strong> Keep out of reach of children. Consult your healthcare provider before taking if you are pregnant, nursing, or have any medical concerns. Do not operate heavy machinery after use.
+          </div>
+          <p>&copy; 2025 Hemp Headz. All Rights Reserved. Must be 21+ to purchase.</p>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
