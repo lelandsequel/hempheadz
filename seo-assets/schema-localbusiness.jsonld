@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CannabisStore",
+  "name": "Hemp Headz",
+  "image": "https://www.hempheadzhtown.com/assets/mascot.png",
+  "@id": "https://www.hempheadzhtown.com",
+  "url": "https://www.hempheadzhtown.com",
+  "telephone": "310-269-6696",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "6003 N Shepherd Dr, Suite 1",
+    "addressLocality": "Houston",
+    "addressRegion": "TX",
+    "postalCode": "77091",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 29.8541,
+    "longitude": -95.4102
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "10:00",
+    "closes": "22:00"
+  },
+  "sameAs": [
+    "https://www.instagram.com/hempheadzhtx"
+  ],
+  "priceRange": "$$",
+  "description": "Houston's premier hemp experience. Offering Delta 8, THCA, legal cannabis, and lifestyle products in North Shepherd."
+}
+

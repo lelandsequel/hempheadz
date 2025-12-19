@@ -1,0 +1,10 @@
+Sitemap: https://www.hempheadzhtown.com/sitemap.xml
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# SEO - Hemp Headz Houston
+# Focus: Delta 8, THCA, Houston Cannabis
+
